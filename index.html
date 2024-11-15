@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14d1c1ff35.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/img3.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Undergraduate</p>
+            <h1>Hi, I'm <span>Wishvani Sanjana </span><br>  From Sri Lanka</h1>
+        </div>
+    </div>
+  </div>
+ 
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/img2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><BR>
+              <p>I'm a undergraduate data science student actively seeking
+                 online opportunities as a Junior Data Analyst or Data 
+                 Science Intern.With a solid foundation in Python,SQL and data visualization.I'm looking for a role where I can apply my skills and make a meaningful difference.
+              </p>  
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                
+              </div>
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Python Programming:</span><br>Proficient in Python for data manipulation and analysis using libraries like NumPy,Pandas and Matplotlib.</li>
+                    <li><span>Data Analysis and SQL:</span><br>Skilled in using SQL for querying databases and extracting insights from large datasets.</li>
+                    <li><span>Data Visualization:</span><br>Experienced in presenting data insights visually with tools like Tableau and Matplotlib.</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2024 - Current</span><br>I'm undergraduate Data Science student at the SLTC Research University.</li>
+                    <li><span>2023</span><br>Have been following CIMA at Achievers Business Institute.</li>
+                    <li><span>2023</span><br>Followed Advanced Certificate in ICT Course at Slega College.</li>
+                    <li><span>2022</span><br>Successfully Completed GCE A/L.</li>
+                    <li><span>2019</span><br>followed Advanced Certificate in JAVA Programming Course at Zonal Information and Communication Technical Educational Center.</li>
+                    <li><span>2019</span><br>Followed Advanced Certificate in English Course at Sarasavi Educational Institute.</li>
+                    <li><span>2018</span><br>Successfully completed GCE O/L.</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-----------services------------->
+  <div id="services">
+    <div class="containeer">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Python Programming</h2>
+          <p>I offer Python programming expertise for developing scalable applications, automating processes, and performing advanced data analysis. My solutions are tailored to meet unique client requirements with efficiency and precision.  
+          </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass-chart"></i>
+          <h2>Data Analysis and SQL</h2>
+          <p>I specialize in analyzing and managing data using SQL, enabling efficient database querying and optimization. My services ensure data integrity and provide actionable insights to support strategic decision-making.  
+          </p>
+          <a href="#">learn more</a>
+        </div><div>
+          <i class="fa-brands fa-slack"></i>
+          <h2>Data Visualization</h2>
+          <p>I create compelling data visualizations that transform complex datasets into insightful, easy-to-understand graphics. By using modern tools, I help businesses uncover trends and make informed decisions.  
+          </p>
+          <a href="#">learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--------portfolio-------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="images/img5.jpg">
+
+          <div class="layer">
+            <h3>Data Cleaning and Preprocessing</h3>
+            <p>I specialize in organizing and preparing raw datasets by handling inconsistencies, filling gaps, and ensuring data readiness for analysis.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/img6.jpg">
+
+          <div class="layer">
+            <h3>Exploratory Data Analysis</h3>
+            <p>I dive deep into data to uncover patterns, relationships, and key insights, helping to answer critical questions and inform decisions.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/img7.jpg">
+
+          <div class="layer">
+            <h3>Interactive Data Visualization</h3>
+            <p>I create visually appealing and interactive dashboards and charts that simplify complex data, making it accessible and actionable.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+  <!--------contact--------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>&nbsp;sanjanapathirana253@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>&nbsp;0705982525</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+
+          </div>
+        </div>
+        <div class="content-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+            <button type="submit" class="btn">SUBMIT</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Wishvani Sanjana</p>
+    </div>
+  </div>
+
+
+
+<script>
+
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+         for(tablink of tablinks){
+             tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+     } 
+
+</script>
+     
+</body>
+</html>
